@@ -1,0 +1,65 @@
+# Plot Files #
+###################
+*.png
+*.pdf
+*.svg
+
+# Raw input and output Files #
+###################
+*.in
+*.out
+
+# SQL Scripts #
+###################
+**/sql_queries/*.sql
+
+# Input files #
+###################
+Experiments/**/*.csv
+Experiments/**/*.tsv
+out.*
+
+# Database input files #
+###################
+*.tbl
+
+# Json input files 
+Experiments/**/*.json
+
+# Compiled source #
+###################
+*.pyc
+
+target/
+
+# Eclipse etc.#
+###################
+.classpath
+.project
+.settings/
+.idea
+
+# Maven #
+###################
+dependency-reduced-pom.xml
+
+# Compressed files #
+###################
+*.zip
+*.gz
+
+# Various log files #
+###################
+*.log
+
+# Text files #
+###################
+*.txt
+
+# Other #
+###################
+org.eclipse.*
+launch.json
+settings.json
+*.DS_STORE
+src/main/java/experiments/bitcoin-output/
